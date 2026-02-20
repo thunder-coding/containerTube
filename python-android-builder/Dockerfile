@@ -16,6 +16,7 @@ RUN : && \
     autoconf-archive \
     m4 \
     autotools-dev \
+    libffi-dev \
     # Needed for Android command line tools
     openjdk-21-jdk && \
     # Get rid of the apt cache to save space in the image.
