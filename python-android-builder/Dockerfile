@@ -26,7 +26,7 @@ RUN : && \
 USER ubuntu
 
 # Setup Android command line tools needed by Python to build
-ENV ANDROID_HOME /home/ubuntu/.android
+ENV ANDROID_HOME=/home/ubuntu/.android
 ARG ANDROID_COMMAND_LINE_TOOLS_VERSION=14742923
 ARG ANDROID_COMMAND_LINE_TOOLS_SHA1=48833c34b761c10cb20bcd16582129395d121b27
 
